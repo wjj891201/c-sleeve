@@ -13,9 +13,9 @@ class Theme {
   }
   static async getHomeLocationE() {
     return await Http.request({
-      url: `themes`,
+      url: `week_new`,
       data: {
-        id: '2'
+        id: '1'
       }
     })
   }

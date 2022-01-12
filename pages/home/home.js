@@ -23,6 +23,7 @@ Page({
     bannerB: null,
     grid: [],
     activityD: null,
+    themeE: null,
   },
 
   /**
@@ -37,11 +38,13 @@ Page({
     const bannerB = await Banner.getHomeLocationB()
     const grid = await Category.getGridCategory()
     const activityD = await Activity.getHomeLocationD()
+    const themeE = await Theme.getHomeLocationE()
     this.setData({
       themeA: themeA[0],
       bannerB: bannerB[0],
       grid,
       activityD: activityD[0],
+      themeE: themeE[0]
     })
   },
 

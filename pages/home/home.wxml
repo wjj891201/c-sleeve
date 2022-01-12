@@ -9,4 +9,6 @@
   </swiper>
   <s-category-grid grid="{{grid}}"></s-category-grid>
   <image class="activity" src="{{activityD.entrance_img}}"></image>
+
+  <s-spu-scroll theme="{{themeE}}" spu-list="{{themeE.spu_list}}"></s-spu-scroll>
 </view>
